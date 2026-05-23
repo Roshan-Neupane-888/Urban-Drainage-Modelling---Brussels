@@ -14,9 +14,9 @@ As the team member specialized in drainage and hydraulic modeling, I executed th
 
 ## Tools & Technologies Used
 * **EPA-SWMM:** Built the hydraulic and hydrologic engine to simulate urban runoff and pipe network hydraulics.
-* **QGIS:** Performed geospatial processing, watershed delineation, and mapped flooding extent layouts against the urban topography.
+* **QGIS:** Performed geospatial processing, subcatchment creation and visualization.
 
 ## Project Structure
 * `/models` : Contains the EPA-SWMM input files (`.inp`).
-* `/gis` : Contains QGIS project layouts, shapefiles, and exported flood maps.
-* `/docs` : Contains the final project summary, poster presentations, or reporting data.
+* `/gis` : Contains QGIS exported map.
+* `/docs` : Contains the image , poster presentations, or reporting data.
