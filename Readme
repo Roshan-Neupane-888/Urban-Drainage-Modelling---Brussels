@@ -1,9 +1,22 @@
-Integrated Project “Rue Gray-Maelbeek” (Brussels, Belgium) (2 weeks Project)
-Drainage Modelling (Vrije Universiteit Brussel) 
-▪ Developed an EPA-SWMM model for an unconnected 
-  pipe network and integrated it into the city's main sewer 
-  system. 
-▪ Simulated a high-precipitation event (July 9th storm) to 
-  identify and analyze the origins of flooding locations. 
-▪ Validated model results against citizen-observed flood 
-  data.
+# Urban Drainage Modelling: Rue Gray-Maelbeek (Brussels, Belgium)
+
+## Project Background
+During the summer of 2024, the Rue Gray area in the Maelbeek valley experienced severe, recurring flooding events—inundating the location four separate times within a span of just two months. At the time, there was significant technical uncertainty and confusion regarding the exact drivers of the flooding, specifically whether it was primarily caused by urban sewer overflows, rising groundwater, or intense surface water runoff. 
+
+While the overarching, multi-disciplinary objective of the broader project was to identify long-term Nature-Based Solutions (NBS) for the valley, our team's specific engineering goal was to pinpoint the precise source and dynamic pathway of the floodwaters.
+
+## My Core Contributions & Role
+As the team member specialized in drainage and hydraulic modeling, I executed the technical simulation workflow to analyze the sewer system's performance:
+* **Network Integration & Modelling:** Developed an EPA-SWMM model for an unconnected local pipe network and successfully integrated it into Brussels' main municipal sewer system.
+* **Hydrologic Simulation:** Simulated a historical high-precipitation event (specifically the intense July 9th storm) to identify structural bottlenecks and surcharging pipes within the system.
+* **Flood Origin Analysis:** Evaluated the hydraulic capacity of the network to determine exactly how much sewer system overflows contributed to the street-level flooding versus other environmental factors.
+* **Empirical Validation:** Validated and calibrated the model's simulated flooding locations directly against citizen-observed field data to ensure engineering accuracy and reliability.
+
+## Tools & Technologies Used
+* **EPA-SWMM:** Built the hydraulic and hydrologic engine to simulate urban runoff and pipe network hydraulics.
+* **QGIS:** Performed geospatial processing, watershed delineation, and mapped flooding extent layouts against the urban topography.
+
+## Project Structure
+* `/models` : Contains the EPA-SWMM input files (`.inp`).
+* `/gis` : Contains QGIS project layouts, shapefiles, and exported flood maps.
+* `/docs` : Contains the final project summary, poster presentations, or reporting data.
